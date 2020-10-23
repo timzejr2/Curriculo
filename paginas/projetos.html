@@ -1,19 +1,90 @@
-<!-- Cabeçalhos -->
-<h1>Cabeçalho principal</h1>
-<h2>Cabeçalho nivel 2</h2>
-<h3>Cabeçalho nivel 3</h3>
-<h4>Cabeçalho nivel 4</h4>
-<h5>Cabeçalho nivel 5</h5>
-<h6>Cabeçalho nivel 6</h6>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Valentim</title>
+    <style>
+        body {
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
-<!-- Parágrafpd -->
-<p>
-    fhgvosu  sfhg ouash çxhv  usg fs gpo uhsfpogh fpuhgp osfg puhds.
-    Sdjg hisuhg ushg posuhg  irg posfhg posfh gpo...
-</p>
+        header {
+            position: absolute;          
+            height: 50px;
+            width: 100%;
+            background-color: rgb(30, 30, 120);
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
-<!-- Negrito e itálico -->
-<p>Texto em <b>negrito</b> e <i>itálico</i></p>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
 
-<!-- Sobrescrito e subescrito -->
-<p>2<sup>2</sup> = 4 e H<sub>2</sub>O = água</p>
+        li {
+            float: left;
+            width: 200px;
+        }
+
+        li a {
+            display: block;
+            padding: 8px;
+            color: white;
+            background-color: rgb(30, 30, 120);
+            border-style: solid;
+            border-color: white;
+            border-width: 5px;
+            font-size: 25px;
+            
+        }
+
+        a {            
+            background-color: white;
+            text-decoration: none;
+            
+        }   
+
+        a:hover {
+              background-color: rgb(80, 80, 255);
+        }
+
+        #conteudo {
+            padding: 30px 0px;
+        }
+
+        section {
+            margin-top: 55px;
+            height: 297mm;
+            width: 210mm;            
+            background-color: whitesmoke;
+            box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+            padding-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="paginas/curriculo.html">Currículo</a>
+                </li>
+                <li>
+                    <a href="paginas/projetos.html">Projetos</a>
+                </li>
+            </ul>
+        </nav>        
+    </header>    
+</body>
+</html>
